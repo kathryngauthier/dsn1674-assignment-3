@@ -39,17 +39,18 @@ b{
 }
 
 blockquote{
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-style: italic;
-	font-family: 'Bevan', cursive;
-	line-height: 1.5;
-	text-align: center;
+	font-family: serif;
+	line-height: 1.5rem;
+	text-align: left;
+	padding-left: 1rem;
 }
 
 cite{
-	font-size: .5rem;
+	font-size: .8rem;
 	font-style: none;
-	font-family: 'Bevan', cursive;
+	font-family: serif;
 	line-height: 1.5;
 	text-align: right;
 }
@@ -73,4 +74,13 @@ figcaption{
 	font-size: .8rem;
 	font-family: sans-serif;
 	font-style: italic;
+}
+
+ol{
+	list-style-type: circle;
+	font-family: sans-serif;
+}
+
+b.quotations{
+	font-size: 2rem
 }
