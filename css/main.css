@@ -5,11 +5,11 @@ html {
 
 h1{
 	font-weight: bold;
-	font-size: 5rem;
+	font-size: 3rem;
 	font-style: none;
-	font-family: 'Poiret One';
+	font-family: 'Bevan', cursive;
 	line-height: 1.5;
-	text-align: center;
+	text-align: left;
 }
 
 ul{
@@ -29,7 +29,7 @@ h2{
 	font-weight: bold;
 	font-size: 2 rem;
 	font-style: none;
-	font-family: 'Poiret One';
+	font-family: 'Bevan', cursive;
 	line-height: 1.5;
 	text-align: left;
 }
@@ -41,7 +41,7 @@ b{
 blockquote{
 	font-size: 1rem;
 	font-style: italic;
-	font-family: 'Poiret One';
+	font-family: 'Bevan', cursive;
 	line-height: 1.5;
 	text-align: center;
 }
@@ -49,12 +49,28 @@ blockquote{
 cite{
 	font-size: .5rem;
 	font-style: none;
-	font-family: 'Poiret One';
+	font-family: 'Bevan', cursive;
 	line-height: 1.5;
-	text-align: center;
+	text-align: right;
 }
 
 ol{
-	list-style-type:lower-roman;
+	list-style: lower-roman;
 	padding: 0;
+}
+
+dl{
+	font-family: sans-serif;
+	line-height: 1.5;
+	text-align: left;
+}
+
+dt{
+	font-weight: bold;
+}
+
+figcaption{
+	font-size: .8rem;
+	font-family: sans-serif;
+	font-style: italic;
 }
